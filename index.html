@@ -112,7 +112,164 @@
     </section>
 
     <!-- Partners Section -->
-    <section id="partners" class="py-20 bg-[#2a2a2a]" role="region" aria-labelledby="partners-heading">
+    
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h3 id="partners-heading" class="text-3xl font-bold mb-10">Our Partners</h3>
+        <p class="text-[#d4af37] mb-10">We’re proud to work with respected cannabis brands and dispensaries across California.</p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="Partner 1 Logo" class="mx-auto h-12">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Partner 2 Logo" class="mx-auto h-12">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Partner 3 Logo" class="mx-auto h-12">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Partner 4 Logo" class="mx-auto h-12">
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-[#1c1c1c]" role="region" aria-labelledby="contact-heading">
+      <div class="max-w-3xl mx-auto px-4 text-center">
+        <h3 id="contact-heading" class="text-3xl font-bold mb-4">Get in Touch</h3>
+        <p class="text-[#d4af37] mb-6">Interested in working together? Drop us a line.</p>
+        <a href="mailto:info@canna-agency.com" class="inline-block bg-[#d4af37] text-[#1c1c1c] px-6 py-3 rounded-full hover:bg-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]" role="link">Email Us</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-[#1c1c1c] py-6 text-center text-[#aaaaaa]" role="contentinfo">
+    <p>&copy; 2025 Canna Agency. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<!-- Partners Section -->
+<section id="partners" class="py-20 bg-[#2a2a2a]" role="region" aria-labelledby="partners-heading">
+  <div class="max-w-6xl mx-auto px-4 text-center">
+    <h3 id="partners-heading" class="text-3xl font-bold mb-10 text-[#d4af37]">Our Partners</h3>
+    <p class="text-[#d4af37] mb-10">We’re proud to work with respected cannabis brands and dispensaries across California.</p>
+    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 items-center">
+      <a href="https://www.lowellherbco.com/" target="_blank" rel="noopener">
+        <img src="lowell-logo.png" alt="Lowell Herb Co Logo" class="mx-auto h-20">
+      </a>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Partner 2 Logo" class="mx-auto h-12">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Partner 3 Logo" class="mx-auto h-12">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Partner 4 Logo" class="mx-auto h-12">
+    </div>
+  </div>
+</section>
+E html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canna Agency</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobile-menu');
+      menu.classList.toggle('hidden');
+    }
+  </script>
+</head>
+<body class="bg-[#1c1c1c] text-[#1c1c1c] font-sans" role="document">
+  <!-- Header -->
+  <header class="bg-[#1c1c1c] shadow-md sticky top-0 z-50" role="banner">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <a href="/" aria-label="Homepage"><img src="logo.png" alt="The Agency Logo" class="h-12 md:h-14 w-auto"></a>
+      <nav class="space-x-6 hidden md:flex" aria-label="Main Navigation">
+        <a href="#about" class="hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]">About</a>
+        <a href="#brands" class="hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]">Brands</a>
+        <a href="#coverage" class="hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]">Coverage</a>
+        <a href="#services" class="hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]">Services</a>
+        <a href="#partners" class="hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]">Partners</a>
+        <a href="#contact" class="hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]">Contact</a>
+      </nav>
+      <button class="md:hidden text-2xl" onclick="toggleMenu()" aria-label="Open mobile menu">&#9776;</button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-[#1c1c1c] px-4 py-6" aria-label="Mobile menu">
+      <a href="#about" class="block py-2 text-lg hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]" onclick="toggleMenu()">About</a>
+      <a href="#brands" class="block py-2 text-lg hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]" onclick="toggleMenu()">Brands</a>
+      <a href="#coverage" class="block py-2 text-lg hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]" onclick="toggleMenu()">Coverage</a>
+      <a href="#services" class="block py-2 text-lg hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]" onclick="toggleMenu()">Services</a>
+      <a href="#partners" class="block py-2 text-lg hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]" onclick="toggleMenu()">Partners</a>
+      <a href="#contact" class="block py-2 text-lg hover:text-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]" onclick="toggleMenu()">Contact</a>
+      <a href="#contact" class="mt-4 inline-block text-center w-full bg-[#d4af37] text-[#1c1c1c] py-2 rounded-full hover:bg-[#d4af37] focus:outline focus:outline-2 focus:outline-[#d4af37]" onclick="toggleMenu()">Place an Order</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="bg-green-100 py-20 text-center" role="region" aria-label="Hero">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-4xl font-bold mb-4">Your Partner in Cannabis Sales</h2>
+        <p class="text-lg text-[#d4af37]">We help dispensaries and brands grow together through curated product selection, service, and trust.</p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-[#1c1c1c]" role="region" aria-labelledby="about-heading">
+      <div class="max-w-5xl mx-auto px-4">
+        <h3 id="about-heading" class="text-3xl font-bold mb-4">About Us</h3>
+        <p class="text-[#d4af37] leading-relaxed">
+          Canna Agency is a California-based cannabis sales team focused on building lasting partnerships. We represent brands with integrity, hustle, and heart—working closely with retail buyers to meet their unique needs.
+        </p>
+      </div>
+    </section>
+
+    <!-- Brand Portfolio Section -->
+    <section id="brands" class="py-20 bg-[#2a2a2a]" role="region" aria-labelledby="brands-heading">
+      <div class="max-w-6xl mx-auto px-4">
+        <h3 id="brands-heading" class="text-3xl font-bold mb-10 text-center">Brands We Represent</h3>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div class="bg-[#1c1c1c] p-6 shadow rounded-xl text-center">
+            <img src="https://via.placeholder.com/150" alt="Brand Name 1 Logo" class="mx-auto mb-4">
+            <h4 class="text-xl font-semibold">Brand Name 1</h4>
+          </div>
+          <div class="bg-[#1c1c1c] p-6 shadow rounded-xl text-center">
+            <img src="https://via.placeholder.com/150" alt="Brand Name 2 Logo" class="mx-auto mb-4">
+            <h4 class="text-xl font-semibold">Brand Name 2</h4>
+          </div>
+          <div class="bg-[#1c1c1c] p-6 shadow rounded-xl text-center">
+            <img src="https://via.placeholder.com/150" alt="Brand Name 3 Logo" class="mx-auto mb-4">
+            <h4 class="text-xl font-semibold">Brand Name 3</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section id="coverage" class="py-20 bg-[#1c1c1c]" role="region" aria-labelledby="coverage-heading">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <h3 id="coverage-heading" class="text-3xl font-bold mb-6">Statewide Coverage</h3>
+        <p class="text-lg text-[#d4af37] mb-8">
+          We proudly serve the entire state of California — delivering to over 600 licensed retail partners across every major market.
+        </p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/California_state_map.svg" alt="California state coverage map" class="mx-auto max-w-xs">
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-[#1c1c1c]" role="region" aria-labelledby="services-heading">
+      <div class="max-w-5xl mx-auto px-4">
+        <h3 id="services-heading" class="text-3xl font-bold mb-4">Our Services</h3>
+        <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <li class="bg-[#1c1c1c] shadow p-6 rounded-xl">
+            <h4 class="text-xl font-semibold mb-2">Brand Representation</h4>
+            <p class="text-gray-600">We bring your brand to market with professionalism and passion.</p>
+          </li>
+          <li class="bg-[#1c1c1c] shadow p-6 rounded-xl">
+            <h4 class="text-xl font-semibold mb-2">Retail Relationships</h4>
+            <p class="text-gray-600">Strong, personal connections with buyers across California.</p>
+          </li>
+          <li class="bg-[#1c1c1c] shadow p-6 rounded-xl">
+            <h4 class="text-xl font-semibold mb-2">Sales Strategy</h4>
+            <p class="text-gray-600">Data-driven sales systems that drive revenue and consistency.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    
       <div class="max-w-6xl mx-auto px-4 text-center">
         <h3 id="partners-heading" class="text-3xl font-bold mb-10">Our Partners</h3>
         <p class="text-[#d4af37] mb-10">We’re proud to work with respected cannabis brands and dispensaries across California.</p>
