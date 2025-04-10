@@ -15,22 +15,27 @@
   </script>
 
 <style>
-@keyframes scroll-reel {
+.brand-marquee-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: #f9f9f7;
+}
+.brand-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: scroll-left 40s linear infinite;
+}
+.brand-marquee-track a {
+  display: inline-block;
+  padding: 0 2rem;
+}
+.brand-marquee-track img {
+  height: 80px;
+}
+@keyframes scroll-left {
   0% { transform: translateX(0); }
   100% { transform: translateX(-50%); }
-}
-.brand-reel-track {
-  display: flex;
-  width: fit-content;
-  animation: scroll-reel 30s linear infinite;
-}
-.brand-reel-container {
-  overflow: hidden;
-  white-space: nowrap;
-}
-.brand-logo {
-  height: 80px;
-  margin: 0 2rem;
 }
 </style>
 </head>
