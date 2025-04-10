@@ -13,6 +13,26 @@
       menu.classList.toggle('hidden');
     }
   </script>
+
+<style>
+@keyframes scroll-reel {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.brand-reel-track {
+  display: flex;
+  width: fit-content;
+  animation: scroll-reel 30s linear infinite;
+}
+.brand-reel-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+.brand-logo {
+  height: 80px;
+  margin: 0 2rem;
+}
+</style>
 </head>
 <body class="bg-[#f9f9f7] text-[#1c1c1c] font-sans" role="document">
 <!-- Header -->
